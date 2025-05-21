@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Business Name)</title>
+    <meta name="title" content="(Business Name)">
+    <meta name="description" content="(Business Website)">
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> (Business Name)</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#discounts">Offers</a>
+            <a href="#featured">featured</a>
+            <a href="#foot">Contact Us</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#contact" class="fas fa-shopping-cart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+
+        <div class="slides-container">
+            
+            <div class="slide active">
+                <div class="content">
+                    <span>New</span>
+                    <h3>shoes collection</h3>
+                    <p>Discover comfort, performance, and style—crafted for every move you make</p>
+                    <button class="btn">
+                       <a href="#products"><span>Shop Now</span></a>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="images/header-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>New</span>
+                    <h3>shoes collection</h3>
+                    <p>Engineered for endurance. Designed to go wherever you run.</p>
+                    <button class="btn">
+                       <a href="#products"><span>shop now</span></a>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="image">
+                    <img src="images/header-2.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- latest product section starts -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"><span>latest</span> products</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                   <a href="https://www.nike.com/in/w/zoom-structure-shoes-1sytgzy7ok"><img src="images/product-1.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Zoom Structure 20</h3>
+                    <div class="price">₹11,895.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(47)</span>
+                    </div>
+                    <a href="https://www.nike.com/in/w/zoom-structure-shoes-1sytgzy7ok" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <a href="https://stockx.com/kobe-9-em-low-bruce-lee"><img src="images/product-2.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Kobe 9 EM</h3>
+                    <div class="price">₹46,750.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(13)</span>
+                    </div>
+                    <a href="https://stockx.com/kobe-9-em-low-bruce-lee" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <a href="https://www.nike.com/in/basketball/kd-9"><img src="images/product-3.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Zoom KD 9</h3>
+                    <div class="price">₹10,625.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(112)</span>
+                    </div>
+                    <a href="https://www.nike.com/in/basketball/kd-9" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <a href="https://www.nike.com/in/w/pegasus-running-shoes-37v7jz8nexhzy7ok"><img src="images/product-4.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Zoom Pegasus 36</h3>
+                    <div class="price">₹9,250.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(105)</span>
+                    </div>
+                    <a href="https://www.nike.com/in/w/pegasus-running-shoes-37v7jz8nexhzy7ok" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                <a href="https://www.nike.com/in/w/air-max-a6d8h"><img src="images/product-5.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Max</h3>
+                    <div class="price">₹17,495.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(24)</span>
+                    </div>
+                    <a href="https://www.nike.com/in/w/air-max-a6d8h" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <a href="https://www.nike.com/in/w/huarache-shoes-adlt2zy7ok"><img src="images/product-6.png" alt=""></a>
+                </div>
+                <div class="content">
+                    <h3>Nike Air Huarache Ultra</h3>
+                    <div class="price">₹11,050.00</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(65)</span>
+                    </div>
+                    <a href="https://www.nike.com/in/w/huarache-shoes-adlt2zy7ok" class="btn"> <i class="far fa-heart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- latest product section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner-container" id="discounts">
+
+        <div class="banner">
+            <img src="images/banner1.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 40% off</h3>
+                <button class="btn">
+                   <a href="#featured"><span>shop now</span></a>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/banner2.jpg" alt="">
+            <div class="content">
+                <span>limited offer</span>
+                <h3>upto 50% off</h3>
+                <button class="btn">
+                   <a href="#featured"><span>shop now</span></a>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- featured product section starts -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured</span> products</h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="images/product-1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike Air Monarch IV</h3>
+                        <div class="price">₹5,295</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-10%</span>
+                    <div class="image">
+                        <img src="images/product-2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike Zoom Vomero 5</h3>
+                        <div class="price">₹14,995.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-34%</span>
+                    <div class="image">
+                        <img src="images/product-3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike DownShifter 9</h3>
+                        <div class="price">₹2,599.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-25%</span>
+                    <div class="image">
+                        <img src="images/product-4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike ReactX Infinity Run</h3>
+                        <div class="price">₹11,245.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-20%</span>
+                    <div class="image">
+                        <img src="images/product-5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike Motiva Walking Shoes</h3>
+                        <div class="price">₹9,695.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-60%</span>
+                    <div class="image">
+                        <img src="images/product-6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike Court Vision Mid</h3>
+                        <div class="price">₹4,375.00</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#contact" class="btn">add to cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured product section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>client's</span> review</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Lavanya Banerjee</h3>
+                    <p>Super comfy and stylish, these shoes feel like they were made just for me!</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Rachit Arora</h3>
+                    <p>Ordered on a whim, now they're my everyday go-to. Total game-changer</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Suhani Todi</h3>
+                    <p>From gym to street, they've nailed both comfort and performance. Worth every penny!</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- send gift section starts -->
+
+    <section class="send" id="gift">
+
+        <div class="container">
+
+            <div class="content">
+                <h2 class="title">send gift now</h2>
+                <p>Surprise them with style, because great choices make unforgettable gifts</p>
+                <form action="">
+                    <input type="text" class="input" placeholder="Address">
+                    <a href="#contact" class="btn">send</a>
+                </form>
+            </div>
+            <div class="image">
+                <img src="images/Send gift.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- send gift section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>Order</span> Now</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+
+            <form action="">
+                <h3>Checkout</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Your Number">
+                    <input type="text" placeholder="Your Product">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <a href="#home"><input type="submit" value="Checkout" class="btn"></a>
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer" id="foot">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>India's go to destination for the most premium and iconic Nike kicks curated for true sneakerheads.</p>
+            </div>
+
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#featured">Pricing</a>
+                <a href="#discounts">Discounts</a>
+                <a href="#gift">Gifting</a>
+                <a href="#products">Order</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#products">products</a>
+                <a href="#featured">featured</a>
+                <a href="#review">review</a>
+            </div>
+
+            <div class="box">
+                <h3>social links</h3>
+                <a href=""> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href=""> <i class="fab fa-instagram"></i> instagram</a>
+                <a href=""> <i class="fab fa-youtube"></i> YouTube</a>
+                <a href=""><i class="fas fa-phone"></i>(Contact No.)</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="credit">
+        Crafted with Love by (Your Name) | (Business Name) &copy; All Rights Reserved
+    </section>
+
+
+    <!-- footer section ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+</body>
+</html>
